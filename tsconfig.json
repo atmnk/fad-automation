@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework",
+            "@types/chai",
+            "@wdio/appium-service"
+        ]
+    }
+}
