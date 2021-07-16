@@ -53,8 +53,7 @@ export const config: WebdriverIO.Config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
-    capabilities: [{
-    
+    capabilities: [{ 
         platformName: 'Android',
         deviceName: 'Pixel 4',
         automationName: 'Flutter',

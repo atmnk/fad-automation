@@ -1,6 +1,6 @@
 import * as find from "appium-flutter-finder"
 import CustomerScreenAndroid from "../../android/razorpay/customer.screen";
-import IHomeScreen from "../../common/app/home.screen";
+import IHomeScreen from "./home.screen";
 import CustomerScreenIOS from "../../ios/razorpay/customer.screen";
 import ICustomerScreen from "../razorpay/customer.screen";
 export default class HomeScreen {

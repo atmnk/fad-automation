@@ -1,5 +1,5 @@
-import ICustomerScreen from "../../common/razorpay/customer.screen";
-import IPaymentMethodScreen from "../../common/razorpay/paymentmethod.screen";
+import ICustomerScreen from "../../flutter/razorpay/customer.screen";
+import IPaymentMethodScreen from "../../flutter/razorpay/paymentmethod.screen";
 import RazorpayScreen from "./base.screen";
 import PaymentMethodScreen from "./paymentmethod.screen";
 

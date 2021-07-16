@@ -1,6 +1,6 @@
-import HomeScreen from "../../common/app/home.screen";
-import IHomeScreen from "../../common/app/home.screen";
-import IDecidePaymentStatusScreen from "../../common/razorpay/decide.screen";
+import HomeScreen from "../../flutter/app/home.screen";
+import IHomeScreen from "../../flutter/app/home.screen";
+import IDecidePaymentStatusScreen from "../../flutter/razorpay/decide.screen";
 import RazorpayScreen from "./base.screen";
 import CardDetailsScreen from "./carddetails.screen";
 

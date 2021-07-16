@@ -1,6 +1,6 @@
 import * as find from "appium-flutter-finder"
 import { expect } from "chai";
-import HomeScreen from "../screenobjects/mobile/common/app/home.screen";
+import HomeScreen from "../screenobjects/mobile/flutter/app/home.screen";
 describe('Counter', () => {
     it('Purchase Increament', async () => {
   const buttonFinder = find.byValueKey('ADD');
