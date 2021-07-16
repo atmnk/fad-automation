@@ -1,5 +1,5 @@
-import ICardDetailsScreen from "../../flutter/razorpay/carddetails.screen";
-import IDecidePaymentStatusScreen from "../../flutter/razorpay/decide.screen";
+import ICardDetailsScreen from "../../razorpay/carddetails.screen";
+import IDecidePaymentStatusScreen from "../../razorpay/decide.screen";
 import RazorpayScreen from "./base.screen";
 import DecidePaymentStatusScreen from "./decide.screen";
 import PaymentMethodScreen from "./paymentmethod.screen";

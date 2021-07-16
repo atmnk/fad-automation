@@ -1,8 +1,8 @@
 import * as find from "appium-flutter-finder"
-import CustomerScreenAndroid from "../../android/razorpay/customer.screen";
+import CustomerScreenAndroid from "../native/android/razorpay/customer.screen";
 import IHomeScreen from "./home.screen";
-import CustomerScreenIOS from "../../ios/razorpay/customer.screen";
-import ICustomerScreen from "../razorpay/customer.screen";
+import CustomerScreenIOS from "../native/ios/razorpay/customer.screen";
+import ICustomerScreen from "../native/razorpay/customer.screen";
 export default class HomeScreen {
     private static addButton = find.byValueKey('Add');
     private static counterText = find.byValueKey('counter');

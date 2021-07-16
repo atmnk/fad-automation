@@ -1,4 +1,4 @@
-import IOTPScreen from "../../flutter/razorpay/otp.screen";
+import IOTPScreen from "../../razorpay/otp.screen";
 import RazorpayScreen from "./base.screen";
 import CardDetailsScreen from "./carddetails.screen";
 
