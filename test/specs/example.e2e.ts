@@ -3,9 +3,6 @@ import { expect } from "chai";
 import HomeScreen from "../screenobjects/mobile/flutter/home.screen";
 describe('Counter', () => {
     it('Purchase Increament', async () => {
-  const buttonFinder = find.byValueKey('ADD');
-  const counterTextFinder = find.byValueKey('counter');
-
   const value = await new HomeScreen()
     .add()
     .then(customerScreen=>{
