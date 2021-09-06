@@ -12,10 +12,6 @@ describe('Counter', () => {
     }).then(paymentMthodScreen=>{
       return paymentMthodScreen
       .selectCardAsPaymentMethod()
-      
-    // }).then(otpScreen=>{
-    //   return otpScreen
-    //   .skipSaveCard()
     }).then(cardDetailsScreen=>{
       return cardDetailsScreen
       .pay('41111111111111111','1122','Atmaram Naik','111')
