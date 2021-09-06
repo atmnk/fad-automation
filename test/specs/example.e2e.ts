@@ -1,13 +1,16 @@
 import * as find from "appium-flutter-finder"
 import { expect } from "chai";
 import HomeScreen from "../screenobjects/mobile/flutter/home.screen";
+import {random_mobile} from "../util"
 describe('Counter', () => {
     it('Purchase Increament', async () => {
   const value = await new HomeScreen()
     .add()
     .then(customerScreen=>{
+      const tt=new Date().getTime();
+      const num = new Date();
       return customerScreen
-        .addDetails('9900990099','naik_atmaram1@yahoo.com')
+        .addDetails(random_mobile(),`naik_atmaram+${tt}@yahoo.com`)
         
     }).then(paymentMthodScreen=>{
       return paymentMthodScreen
