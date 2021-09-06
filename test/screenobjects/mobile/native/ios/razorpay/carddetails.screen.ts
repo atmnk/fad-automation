@@ -10,7 +10,7 @@ export default class CardDetailsScreen extends RazorpayScreen implements ICardDe
     private static nameLocator = CardDetailsScreen.classChain('**/XCUIElementTypeOther[`label == "Razorpay Checkout"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[3]');
     private static cvvLocator = CardDetailsScreen.classChain('**/XCUIElementTypeOther[`label == "Razorpay Checkout"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[4]');
     private static rememberCardLocator = CardDetailsScreen.predicateString('label == "Remember Card" AND name == "Remember Card" AND value == "emember Card"');
-    private static payLocator = CardDetailsScreen.predicateString('label == "PAY ₹ 100"');
+    private static payLocator = CardDetailsScreen.predicateString('label == "PAY ₹ 1"');
     async pay(card:string,expiry:string,name:string,cvv:string):Promise<DecidePaymentStatusScreen>{
         await this.typeAfterClicking(CardDetailsScreen.cardNumberLocator,
         card

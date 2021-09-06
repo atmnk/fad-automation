@@ -6,7 +6,6 @@ import ICustomerScreen from "../native/razorpay/customer.screen";
 export default class HomeScreen {
     private static addButton = find.byValueKey('Add');
     private static counterText = find.byValueKey('counter');
-
     async add():Promise<ICustomerScreen>{
         await driver.elementClick(HomeScreen.addButton);
         await driver.switchContext('NATIVE_APP');

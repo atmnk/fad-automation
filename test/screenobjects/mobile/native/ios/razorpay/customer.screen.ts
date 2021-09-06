@@ -6,7 +6,7 @@ import PaymentMethodScreen from "./paymentmethod.screen";
 export default class CustomerScreen extends RazorpayScreen implements ICustomerScreen{
     private static mobileLocator = CustomerScreen.classChain('**/XCUIElementTypeOther[`label == "Razorpay Checkout"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[2]');
     private static emailLocator = CustomerScreen.classChain('**/XCUIElementTypeOther[`label == "Razorpay Checkout"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[3]')
-    private static pageLocator = CustomerScreen.predicateString('label == "₹ 100"');
+    private static pageLocator = CustomerScreen.predicateString('label == "₹ 1"');
     private static proceedButtonLocator = CustomerScreen.predicateString('label == "PROCEED"');
     async addDetails(mobile:string,email:string):Promise<PaymentMethodScreen>{
         await this.typeAfterClicking(

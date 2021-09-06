@@ -1,5 +1,5 @@
-import IOTPScreen from "./otp.screen";
+import ICardDetailsScreen from "./carddetails.screen";
 
 export default interface IPaymentMethodScreen {
-   selectCardAsPaymentMethod():Promise<IOTPScreen>;
+   selectCardAsPaymentMethod():Promise<ICardDetailsScreen>;
 }

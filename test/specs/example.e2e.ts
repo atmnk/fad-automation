@@ -10,15 +10,15 @@ describe('Counter', () => {
     .add()
     .then(customerScreen=>{
       return customerScreen
-        .addDetails('9833821606','naik_atmaram@yahoo.com')
+        .addDetails('9900990099','naik_atmaram1@yahoo.com')
         
     }).then(paymentMthodScreen=>{
       return paymentMthodScreen
       .selectCardAsPaymentMethod()
       
-    }).then(otpScreen=>{
-      return otpScreen
-      .skipSaveCard()
+    // }).then(otpScreen=>{
+    //   return otpScreen
+    //   .skipSaveCard()
     }).then(cardDetailsScreen=>{
       return cardDetailsScreen
       .pay('41111111111111111','1122','Atmaram Naik','111')
