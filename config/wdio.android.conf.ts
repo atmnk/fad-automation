@@ -55,9 +55,9 @@ export const config: WebdriverIO.Config = {
     //
     capabilities: [{ 
         platformName: 'Android',
-        deviceName: 'Pixel 4',
-        automationName: 'Flutter',
-        app: __dirname + '/../../purchasecounter/build/app/outputs/apk/debug/app-debug.apk'
+        'appium:deviceName': 'Pixel 4',
+        'appium:automationName': 'Flutter',
+        'appium:app': __dirname + '/../../purchasecounter/build/app/outputs/apk/debug/app-debug.apk'
     }],
     //
     // ===================

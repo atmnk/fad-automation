@@ -56,11 +56,11 @@ export const config: WebdriverIO.Config = {
     capabilities: [{
     
         platformName: 'iOS',
-        platformVersion: '14.5',
-        deviceName: 'iPhone 12 Pro Max',
-        noReset: false,
-        automationName: 'Flutter',
-        app: __dirname + '/../../purchasecounter/build/ios/iphonesimulator/Runner.zip'
+        'appium:platformVersion': '14.5',
+        'appium:deviceName': 'iPhone 12 Pro Max',
+        'appium:noReset': false,
+        'appium:automationName': 'Flutter',
+        'appium:app': __dirname + '/../../purchasecounter/build/ios/iphonesimulator/Runner.zip'
     }],
     //
     // ===================
