@@ -1,8 +1,6 @@
 import ICardDetailsScreen from "../../razorpay/carddetails.screen";
-import IDecidePaymentStatusScreen from "../../razorpay/decide.screen";
 import RazorpayScreen from "./base.screen";
 import DecidePaymentStatusScreen from "./decide.screen";
-import PaymentMethodScreen from "./paymentmethod.screen";
 
 export default class CardDetailsScreen extends RazorpayScreen implements ICardDetailsScreen{
     private static cardNumberLocator = CardDetailsScreen.classChain('**/XCUIElementTypeOther[`label == "Razorpay Checkout"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[1]');

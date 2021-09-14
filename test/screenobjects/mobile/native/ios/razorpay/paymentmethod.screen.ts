@@ -1,4 +1,3 @@
-import IOTPScreen from "../../razorpay/otp.screen";
 import IPaymentMethodScreen from "../../razorpay/paymentmethod.screen";
 import RazorpayScreen from "./base.screen";
 import CardDetailsScreen from "./carddetails.screen";

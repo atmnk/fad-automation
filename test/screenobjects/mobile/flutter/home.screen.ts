@@ -1,6 +1,5 @@
 import * as find from "appium-flutter-finder"
 import CustomerScreenAndroid from "../native/android/razorpay/customer.screen";
-import IHomeScreen from "./home.screen";
 import CustomerScreenIOS from "../native/ios/razorpay/customer.screen";
 import ICustomerScreen from "../native/razorpay/customer.screen";
 export default class HomeScreen {
@@ -17,7 +16,7 @@ export default class HomeScreen {
         
     }
     async getCounter():Promise<string>{
-        return await driver.getElementText(HomeScreen.counterText)
+        return driver.getElementText(HomeScreen.counterText)
     }
     async waitForPaymentSuccess():Promise<HomeScreen>{
         await driver.execute('flutter:waitFor', find.byText('Payment Successful'));

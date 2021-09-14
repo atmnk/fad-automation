@@ -1,5 +1,4 @@
 import ICustomerScreen from "../../razorpay/customer.screen";
-import IPaymentMethodScreen from "../../razorpay/paymentmethod.screen";
 import RazorpayScreen from "./base.screen";
 import PaymentMethodScreen from "./paymentmethod.screen";
 
@@ -9,7 +8,6 @@ export default class CustomerScreen extends RazorpayScreen implements ICustomerS
     private static pageLocator = 'android=new UiSelector().resourceId("curtain-overlay")';
     private static proceedButtonLocator = 'android=new UiSelector().resourceId("footer")';
     async addDetails(mobile:string,email:string):Promise<PaymentMethodScreen>{
-        driver
         await this.typeAfterClicking(
             CustomerScreen.mobileLocator,
             mobile
