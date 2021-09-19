@@ -12,6 +12,7 @@ Demo Code For Flutter Appium Driver
 You can download apps from this repositories releases. Or you can build and compile whole app from source code.
 
 ## For Running Tests
+You need to get the app binaries (you can download from this repos release section) and place it in relevant path. and add that path in files in config folder.
 ```
 yarn install
 yarn test:ios or yarn test:android
