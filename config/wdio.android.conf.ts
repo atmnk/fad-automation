@@ -12,7 +12,7 @@ export const config: WebdriverIO.Config = {
         platformName: 'Android',
         'appium:deviceName': 'emulator-5554',
         'appium:automationName': 'Flutter',
-        'appium:app': __dirname + '/../../purchasecounter/build/app/outputs/apk/debug/app-debug.apk'
+        'appium:app': __dirname + '/../../purchasecounter/build/app/outputs/flutter-apk/app.apk'
     }],
     logLevel: 'error',
     bail: 0,

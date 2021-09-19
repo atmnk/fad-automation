@@ -1,4 +1,4 @@
-import IDecidePaymentStatusScreen from "../../razorpay/decide.screen";
+import IDecidePaymentStatusScreen from "../../common/razorpay/decide.screen";
 import RazorpayScreen from "./base.screen";
 import HomeScreen from "../../../flutter/home.screen";
 export default class DecidePaymentStatusScreen extends RazorpayScreen implements IDecidePaymentStatusScreen{
